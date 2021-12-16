@@ -1,0 +1,122 @@
+.background-div{
+	background-image: url('map.jpg');
+}
+
+body{
+	font-family: 'Libre Baskerville', serif;
+	align-items: center;
+}
+
+.headingCenter{
+	text-align: center;
+}
+.small{
+	font-size: 0.75rem;
+}
+hr{
+	color: #272b30;
+  border-top: 10px dotted #e1e5ea;
+	height: 0px !important;
+	width: 20%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+	margin: auto;
+}
+
+h1{
+text-decoration: underline;
+text-underline-offset: 0.5rem;
+margin: 1.3rem;
+}
+
+h5{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+
+}
+p{
+	margin: 10px;
+	text-align: left;
+}
+
+
+/* media queries  */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+	.map{
+		width:100vw;
+		height:70vh;
+		border:0;
+		margin:0;
+	}
+}
+@media (min-width: 576px) {
+	.map{
+		width:100vw;
+		height:70vh;
+		border:0;
+		margin: 0;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.map{
+		width:100vw;
+		height:70vh;
+		border:0;
+		margin: 0;
+	}
+	.map-container{
+		margin-bottom: 0;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.map{
+		width:100vw;
+		height:70vh;
+		border:0;
+		margin: 0;
+		padding: 0;
+	}
+	.map-container{
+		margin-bottom: 0;
+		padding: 0;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.map{
+		width:100vw;
+		height:70vh;
+		border:0;
+		margin: 0;
+		padding: 0;
+	}
+	.map-container{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.map{
+		width:100vw;
+		height:70vh;
+		border:0;
+		padding: 0;
+		margin: 0;
+	}
+	.map-container{
+		margin: 0;
+		padding: 0;
+	}
+}
